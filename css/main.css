@@ -425,10 +425,12 @@ img {
 }
 
 .social-networks {
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 5px;
+  bottom: calc(48px + 100vh - 100%);
 }
 @media screen and (min-width: 480px) {
   .social-networks {
